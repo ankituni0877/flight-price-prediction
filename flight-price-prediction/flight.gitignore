@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Data & models
+data/raw/*
+!data/raw/.keep
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
